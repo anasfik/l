@@ -1,0 +1,12 @@
+{
+	"id": {{ appsmith.store.currentUUID }},
+	"story_step_one": {{ appsmith.store.currentUUID }},
+	"story_step_three": {{ appsmith.store.currentUUID }},
+	"story_step_four": {{ appsmith.store.currentUUID }},
+	"story_step_five": {{ appsmith.store.currentUUID }},
+	"story_step_sex": {{ appsmith.store.currentUUID }},
+	"story_step_seven": {{ appsmith.store.currentUUID }},
+	"story_step_eight": {{ appsmith.store.currentUUID }},
+	"story_step_two": {{ appsmith.store.currentUUID }},
+	"content": {{ final_story_editor.text }}
+}

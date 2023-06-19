@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "storiesHandler",
+    "pageId": "Audio Stories",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Audio Stories_storiesHandler",
+  "deleted": false,
+  "gitSyncId": "63fe0f5e1a6f763bee64e882_640e140ed788300dbeb99b90"
+}

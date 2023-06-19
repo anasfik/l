@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "chapters",
+    "pageId": "New Story",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "New Story_chapters",
+  "deleted": false,
+  "gitSyncId": "63fe0f5e1a6f763bee64e882_6403769eb956c26882acd93b"
+}

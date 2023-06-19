@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "marker",
+    "pageId": "Users Messages",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Users Messages_marker",
+  "deleted": false,
+  "gitSyncId": "63fe0f5e1a6f763bee64e882_640a869a5e76ee43f6f6a906"
+}

@@ -1,0 +1,7 @@
+{
+	"data": {
+	"email": {{ email_input.text}},
+	"website": {{ website_input.text }},
+	"prevent_app_access": {{app_access_switch.isSwitchedOn }}
+}
+}

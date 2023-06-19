@@ -1,0 +1,24 @@
+{
+  "model": {{appsmith.store.openai_config_model}},
+  "messages": [
+		{"role": "user", "content": {{step_1_prompt_editor.text}} },
+		 {"role": "assistant", "content": {{step_1_results.text}} },
+		
+		{"role": "user", "content": {{step_3_1_prompt_editor.text}}
+		},
+		 
+		 		 {"role": "assistant", "content": {{step_3_1_results.text}}
+		}	,
+		{"role": "user", "content": {{step_3_2_prompt_editor.text}} 
+		}
+		
+		 
+]	,
+		 	
+	"temperature": {{ appsmith.store.openai_config_temp}},
+								
+	"top_p": {{appsmith.store.openai_config_top_p}},
+	"stop": {{appsmith.store.openai_config_stop.length != 0 ? appsmith.store.openai_config_stop : undefined}},								"max_tokens": {{appsmith.store.openai_config_max_tokens}},
+								"presence_penalty": {{appsmith.store.openai_config_prepen}},
+								"frequency_penalty": {{appsmith.store.openai_config_frepen}}
+}

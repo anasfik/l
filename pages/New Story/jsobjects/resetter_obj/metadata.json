@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "resetter_obj",
+    "pageId": "New Story",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "New Story_resetter_obj",
+  "deleted": false,
+  "gitSyncId": "63fe0f5e1a6f763bee64e882_6402a37d212768755373a5fd"
+}

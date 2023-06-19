@@ -1,0 +1,6 @@
+{ 
+data: {
+  "terms_and_conditions": {{ terms_and_conditions_editor.text}},
+  "disclaimer": {{ disclaimer_editor.text }}
+}
+}

@@ -1,0 +1,17 @@
+{
+  "model": {{appsmith.store.openai_config_model}},
+  "messages": [
+		{{chapters.getStoryChapters()}},
+		{
+			"role": "user",
+			"content": {{this.params.prompt}}
+		}
+	],
+		 	
+	"temperature": {{ appsmith.store.openai_config_temp}},
+								
+	"top_p": {{appsmith.store.openai_config_top_p}},
+	"stop": {{appsmith.store.openai_config_stop.length != 0 ? appsmith.store.openai_config_stop : undefined}},								"max_tokens": {{appsmith.store.openai_config_max_tokens}},
+								"presence_penalty": {{appsmith.store.openai_config_prepen}},
+								"frequency_penalty": {{appsmith.store.openai_config_frepen}}
+}

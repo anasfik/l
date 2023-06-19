@@ -1,0 +1,15 @@
+{
+	"id": {{appsmith.store.currentUUID}},
+	"title": {{step_2_title_input.text}},
+	"motivation_issue": {{ step_2_motivation_issue_input.text}},
+	"protagonist": {{ step_2__potagonist_input.text}},
+	"setting": {{ step_2_setting_input.text}},
+	"conflict_and_problem": {{ step_2_conflict_ens_input.text}},
+	"pacing": {{ step_2_pacing_input.text}},
+	"tone": {{ step_2_tone_input.text}},
+	"theme": {{ step_2_theme_input.text}},
+	"wordcount": {{ step_2_wird__inputcount.text.toString() }},
+	"antagonist": {{ step_2_antagon_input.text }},
+	"optional": {{step_2_optional_input.text}},
+	"prompt": {{ step_2_prompt_editor.text}}
+}

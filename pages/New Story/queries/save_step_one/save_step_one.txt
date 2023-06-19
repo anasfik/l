@@ -1,0 +1,8 @@
+ {
+	 "id": {{appsmith.store.currentUUID}},
+	 "genre": {{appsmith.store.stepOneData.genre}},
+	 "content_type": {{appsmith.store.stepOneData.contentType}},
+	 "tone_and_style": {{appsmith.store.stepOneData.toneAndStyle}},
+	 "prompt": {{appsmith.store.stepOneData.prompt}},
+	 "api_result": {{appsmith.store.stepOneData.result}},
+ }

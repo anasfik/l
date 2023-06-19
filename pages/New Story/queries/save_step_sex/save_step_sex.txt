@@ -1,0 +1,5 @@
+{
+	"id": {{ appsmith.store.currentUUID}},
+	"prompt": {{ step_6_prompt_editor.text }},
+	"result": {{ step_6_results.text }}
+}

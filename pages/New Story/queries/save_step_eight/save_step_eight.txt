@@ -1,0 +1,15 @@
+{
+	"id": {{ appsmith.store.currentUUID }},
+	
+"chapters": {
+	"data": {{
+	step_8_List.listData.map((chapterElem) => {
+	return { 
+	  ...chapterElem,
+		"result": appsmith.store[chapterElem.id]
+	};
+	
+})
+	}}
+}
+}

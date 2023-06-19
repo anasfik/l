@@ -1,0 +1,8 @@
+{
+	data: {
+	"supabase_api_url": {{ supabase_api_url_input.text}},
+  "supabase_api_anon_key": {{ supabase_anon_key_input.text}},
+  "supabase_service_key": {{ supabase_secret_key_input.text}},
+  "eleven_labs_key": {{ eleven_labs_secret_key_input.text}}
+	}
+}

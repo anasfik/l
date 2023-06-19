@@ -1,0 +1,7 @@
+{
+	"id": {{ appsmith.store.currentUUID }},
+	"step_three_one_prompt": {{ step_3_1_prompt_editor.text }},
+	"step_three_one_api_result": {{ step_3_1_results.text }}, 
+	"step_three_two_prompt": {{ step_3_2_prompt_editor.text }},
+  "step_three_two_api_result": {{ step_3_2_results.text }}
+}

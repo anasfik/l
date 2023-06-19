@@ -1,0 +1,15 @@
+{
+	"id": {{ appsmith.store.currentUUID }},
+  "chapters_length": {{ appsmith.store.chaptersList.length }},
+	"chapters": {
+	"data": {{
+	appsmith.store.chaptersList.map((elem) => {
+
+		return { 
+		...elem,
+			"result": appsmith.store[elem.id]
+		};
+	})
+	}}
+}
+}

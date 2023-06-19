@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "story_generation_handler",
+    "pageId": "New Story",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "story_generation_process",
+        "value": "{\n  steps: {}\n}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "New Story_story_generation_handler",
+  "deleted": false,
+  "gitSyncId": "63fe0f5e1a6f763bee64e882_64021ccbb956c26882acd054"
+}

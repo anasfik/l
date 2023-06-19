@@ -1,0 +1,61 @@
+{
+  "pages": [
+    {
+      "id": "New Story",
+      "isDefault": true
+    },
+    {
+      "id": "Users",
+      "isDefault": false
+    },
+    {
+      "id": "Stories",
+      "isDefault": false
+    },
+    {
+      "id": "Audio Stories",
+      "isDefault": false
+    },
+    {
+      "id": "Settings",
+      "isDefault": false
+    },
+    {
+      "id": "Users Messages",
+      "isDefault": false
+    },
+    {
+      "id": "Speakers",
+      "isDefault": false
+    },
+    {
+      "id": "Categories",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#E4D8CC",
+  "icon": "diamond",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "UUID_https://cdn.jsdelivr.net/npm/uuidjs@4.2.12/src/uuid.min.js"
+    },
+    {
+      "uidString": "supabase_https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.4.0/dist/umd/supabase.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

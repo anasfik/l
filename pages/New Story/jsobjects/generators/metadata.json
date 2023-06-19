@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "generators",
+    "pageId": "New Story",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "New Story_generators",
+  "deleted": false,
+  "gitSyncId": "63fe0f5e1a6f763bee64e882_6404c50c212768755373af9b"
+}

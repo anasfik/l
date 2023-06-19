@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "storiesHandler",
+    "pageId": "Stories",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Stories_storiesHandler",
+  "deleted": false,
+  "gitSyncId": "63fe0f5e1a6f763bee64e882_640b728387f34979c2a7e2af"
+}

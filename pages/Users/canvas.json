@@ -1,0 +1,326 @@
+{
+  "unpublishedPage": {
+    "name": "Users",
+    "slug": "users",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 520,
+          "containerStyle": "none",
+          "snapRows": 51,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 530,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "multiRowSelection": false,
+              "borderColor": "transparent",
+              "isVisibleDownload": true,
+              "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+              "topRow": 0,
+              "isSortable": true,
+              "type": "TABLE_WIDGET_V2",
+              "inlineEditingSaveOption": "ROW_LEVEL",
+              "animateLoading": true,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.created_at.computedValue"
+                },
+                {
+                  "key": "primaryColumns.email.computedValue"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.computedValue"
+                },
+                {
+                  "key": "primaryColumns.id.computedValue"
+                },
+                {
+                  "key": "primaryColumns.userId.computedValue"
+                }
+              ],
+              "needsHeightForContent": true,
+              "leftColumn": 0,
+              "delimiter": ",",
+              "defaultSelectedRowIndex": 0,
+              "showInlineEditingOptionDropdown": true,
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "isVisible": true,
+              "fontStyle": "",
+              "enableClientSideSearch": true,
+              "version": 1,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "editActions": {
+                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              },
+              "borderRadius": "0.375rem",
+              "columnUpdatedAt": 1678666040254,
+              "primaryColumnId": "email",
+              "defaultSelectedRowIndices": [
+                0
+              ],
+              "widgetName": "users_table",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "email",
+                "created_at",
+                "customColumn1",
+                "id",
+                "userId"
+              ],
+              "dynamicPropertyPathList": [],
+              "compactMode": "DEFAULT",
+              "displayName": "Table",
+              "bottomRow": 52,
+              "columnWidthMap": {
+                "task": 245,
+                "step": 70,
+                "status": 85,
+                "created_at": 295,
+                "email": 210
+              },
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "parentColumnSpace": 12.3125,
+              "dynamicTriggerPathList": [],
+              "borderWidth": "1.5",
+              "primaryColumns": {
+                "created_at": {
+                  "allowCellWrapping": false,
+                  "index": 1,
+                  "width": 150,
+                  "originalId": "created_at",
+                  "id": "created_at",
+                  "alias": "created_at",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Created At",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( \nmoment(currentRow[\"created_at\"]).format(\"dddd, MMMM Do YYYY, h:mm:ss a\")\n\n))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": "#fafafa"
+                },
+                "email": {
+                  "allowCellWrapping": false,
+                  "index": 2,
+                  "width": 150,
+                  "originalId": "email",
+                  "id": "email",
+                  "alias": "email",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Email",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": "#fafafa"
+                },
+                "customColumn1": {
+                  "allowCellWrapping": false,
+                  "index": 3,
+                  "width": 150,
+                  "originalId": "customColumn1",
+                  "id": "customColumn1",
+                  "alias": "Registered",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": true,
+                  "label": "Registered",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( \nmoment(currentRow[\"created_at\"]).fromNow()\n\n))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "labelColor": "#FFFFFF",
+                  "fontStyle": "",
+                  "cellBackground": "#fafafa"
+                },
+                "id": {
+                  "allowCellWrapping": false,
+                  "index": 0,
+                  "width": 150,
+                  "originalId": "id",
+                  "id": "id",
+                  "alias": "id",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "id",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": "#fafafa"
+                },
+                "userId": {
+                  "allowCellWrapping": false,
+                  "index": 3,
+                  "width": 150,
+                  "originalId": "userId",
+                  "id": "userId",
+                  "alias": "userId",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "userId",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"userId\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": "#fafafa"
+                }
+              },
+              "onRowSelected": "",
+              "key": "eo2l1jexek",
+              "canFreezeColumn": true,
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "textSize": "0.875rem",
+              "widgetId": "d2vnemyae0",
+              "tableData": "{{users_request.data}}",
+              "label": "Data",
+              "searchKey": "",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "isVisiblePagination": true,
+              "cellBackground": "#fafafa",
+              "verticalAlignment": "CENTER"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Users_users_request",
+              "name": "users_request",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Users",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "63fe0f5e1a6f763bee64e882_6400f90d2fe671394a80b08a"
+}
